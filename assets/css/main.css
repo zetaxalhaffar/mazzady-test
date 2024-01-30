@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+*{
+  font-family: 'Nunito', sans-serif;
+}
+
+
+.card{
+  @apply rounded-3xl p-5;
+}
+
+.card-title{
+  @apply text-xl font-bold;
+}
+
+.card-description,
+.card-actions
+{
+  @apply my-3;
+}
+
+.mazzady-grad{
+  @apply bg-gradient-to-r from-[#D20653] to-[#FF951D];
+}
+
+.container-index {
+  @apply mx-auto px-3 sm:px-6 md:px-8;
+}
+
+body {
+  background: #f6f4f5 !important;
+}
