@@ -10,7 +10,7 @@
               <component :is="item.icon" />
             </span>
             <span @click="isOpen = !isOpen" :class="isOpen ? 'bg-light-bg' : ''"
-              class="block cursor-pointer p-1 sm:hidden hover:bg-gray-600/10 transition-all rounded-full">
+              class="ml-3 block cursor-pointer p-1 sm:hidden hover:bg-gray-600/10 transition-all rounded-full">
               <ChevronUp v-if="isOpen" class="h-5 w-5" />
               <ChevronDown v-else class="h-5 w-5" />
             </span>
@@ -18,7 +18,7 @@
         </div>
       </div>
       <TransitionGroup name="slidedown">
-        <div v-if="width >= 400">
+        <div v-if="width >= 640">
           <div class="card-text my-4">
             <div class="alert flex bg-light-bg p-4 text-sm items-center rounded-2xl">
               <div class="mr-2">

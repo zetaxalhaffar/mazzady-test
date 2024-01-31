@@ -8,7 +8,7 @@
         <QRCode  />
         </div>
       </div>
-      <div class="col-span-2">
+      <div class="col-span-2 mt-6 sm:mt-0">
         <Products />
       </div>
     </div>
